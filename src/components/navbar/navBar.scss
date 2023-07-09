@@ -1,12 +1,39 @@
 .navBar {
     width: 100%;
-    line-height: 50px;
     background-color: white;
-    font-size: 25px;
-    font-family: Nunito;
-    padding-left: 20px;
-    color: #F52938;
     box-shadow: 1px 1px 10px #c6c6c6;
     position: relative;
+    height: 50px;
     z-index: 10;
+
+    section {
+        line-height: 50px;
+        color: #F52938;
+        font-size: 25px;
+        font-family: Nunito;
+        padding-left: 20px;
+    }
+
+    .d1,
+    .d2,
+    .d3 {
+        line-height: 50px;
+        position: absolute;
+        top:0px;
+        font-size: 12px;
+        color: #555F68;
+        cursor: pointer;
+    }
+
+    .d1 {
+        right: 180px;
+    }
+
+    .d2 {
+        right: 100px;
+    }
+
+    .d3 {
+        right: 45px;
+    }
 }
